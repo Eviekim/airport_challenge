@@ -3,7 +3,7 @@ require_relative 'airport'
 require_relative 'weather'
 
 class Airport
-  attr_reader: :plane, :capacity, :weather
+  attr_reader :plane, :capacity, :weather
   DEFAULT_CAPACITY = 50
   DEFAULT_WEATHER = "fine"
 
@@ -29,4 +29,4 @@ class Airport
   def airport_busy?
     landing.length >= capacity
   end
-end 
+end

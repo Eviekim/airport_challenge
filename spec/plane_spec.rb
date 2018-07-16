@@ -1,5 +1,5 @@
 require 'plane'
 
 describe Plane do
-  subject(:plane){describe_class.new}
+  subject(:plane){described_class.new}
 end
